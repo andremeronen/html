@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harjutus 6</title>
+</head>
+<body>
+    <h1>vormide loomine</h1>
+    <form action="" method="get">
+        kasutajanimi: <input type="text" name="usr" placeholder="max pikkus 6" maxlength="6"><br>
+        kursus: <input type="number" name="usr" placeholder="max pikkus 3" maxlength="3"><br>
+        osakonna nr: <input type="number" name="dep" min="1" step="1"><br>
+        parool: <input type="password" name="pass"><br>
+        vali teenus:
+        <select name="service">
+            <option value="0.59">Odav 0,59€</option>
+            <option value="0.59">keskmine 1,59€</option>
+            <option value="0.59">kallis 2,59€</option>
+        </select>
+        roll:<br>
+        <input type="radio" name="role" value="Admin">Admin<br>
+        <input type="radio" name="role" value="Mode">Mode<br>
+        <input type="radio" name="role" value="User">User<br>
+        Nõustun tingimustega: <input type="checkbox" name="agree"><br>
+        enesetutvustus:<br>
+        <textarea name="bio" cols="30" rows="10"></textarea><br>
+        <input type="reset" value="tühjenda väljad">
+
+        <input type="submit" value="saada"><br>
+    </form>
+</body>
+</html>
